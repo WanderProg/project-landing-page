@@ -1,0 +1,54 @@
+body {
+    background: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    width: 1200px;
+    min-height: 100vh;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.navContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+
+.linkContainer {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+.signupContainer {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    min-height:175px;
+    width: 100%;
+}
+
+.signupTitle {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    width: 300px;
+
+}
+
+.signupContent {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    border: 1px solid black;
+}
+
+.signupButton {
+    background-color: blue;
+}
