@@ -79,7 +79,7 @@ body {
 
 .infoContainer {
     display: flex;
-    height: 400px;
+    height: 250px;
     width: auto;
     flex-direction: row;   
     background-color: white; 
@@ -108,16 +108,88 @@ body {
 .textContainer {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
-    border: 1px solid black;    
-    height: 100px;
-    width: auto;
+    align-items: center;
+
 }
-.textSquare {
-    display: flex;  
-    height: 50px;
-    width: 100px;
-    border: 1px solid blue;
-    
+
+.tekstSquare {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+
+}
+
+.quotePage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: auto;
+    background-color: grey;
+}
+
+.quoteContainer {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+
+}
+
+.quoteText {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 420px;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+.authorContainer {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: end;
+    align-items: end;
+    margin-top: 0px;
+}
+
+.quoteAuthor {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-weight: bold;
+    margin-left: 260px;
+    margin-top: 0px;
+
+}
+.actionPage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height:150px;
+}
+
+.blueBackground {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(17, 99, 206);
+    color: white;
+    height: 100px;
+    width: 600px;
+}
+
+.SignupButton2 {
+    background-color:rgb(17, 99, 206); 
+    border-color: white;
+    color: white;
+    border-radius: 4px;
+    align-self: self-end;
 }
