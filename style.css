@@ -39,6 +39,7 @@ body {
     flex-direction: row;
     border: 1px solid black;
     width: 300px;
+    margin-bottom: -16px;
 
 }
 
@@ -47,8 +48,59 @@ body {
     flex-direction: column;
     width: 360px;
     border: 1px solid black;
+    margin-bottom: auto;
 }
 
 .signupButton {
     background-color: blue;
+
+}
+
+.imagePlaceholder {
+    display: flex;
+    border: 1px solid black;
+    margin-left: 200px;
+    height: 100px;
+    width: 300px;
+    justify-content: space-between;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.randomInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.infoContainer {
+    display: flex;
+    height: 400px;
+    width: auto;
+    flex-direction: row;   
+    background-color: white; 
+    border: 1px solid black;
+    justify-content: space-evenly;
+
+}
+
+.squareContainer {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+    width: auto;
+}
+
+.square {
+    display: flex;
+    border: 1px solid blue;
+    height: 100px;
+    width: 100px;
 }
